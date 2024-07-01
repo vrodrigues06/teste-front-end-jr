@@ -1,0 +1,100 @@
+:root {
+  --color-brand: #f71963;
+  --color-light--1: #f6f5f2;
+  --color-light--2: #f4f4f4;
+  --color-dark--1: #9f9f9f;
+  --color-dark--2: #2a2a2a;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: var(--color-brand);
+  text-align: center;
+  padding: 1rem 3.75rem;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  line-height: 1.5;
+}
+
+.btn.primary {
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+      inset 0 0 10px rgba(255, 255, 255, 0.3);
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+  }
+}
+
+.btn.product {
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding: 0.75rem 4.125rem;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.btn.partner {
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
+  letter-spacing: 8%;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.btn.newsletter {
+  border-radius: 4px;
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.titlePrimary {
+  color: var(--color-brand);
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 4px;
+  text-align: center;
+  margin: 0 2rem;
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    background-color: #dedede;
+    right: 0;
+    top: 16px;
+    width: 22.5rem;
+    height: 1px;
+    position: absolute;
+  }
+  &::before {
+    left: 0;
+  }
+}

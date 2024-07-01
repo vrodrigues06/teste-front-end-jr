@@ -1,0 +1,35 @@
+.categoryContainer {
+  padding: 2.125rem 0 2.437rem 0;
+}
+
+.categoryItemsList {
+  display: flex;
+  padding: 0 0.25rem;
+  column-gap: 3.31rem;
+}
+
+.categoryType {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.categoryType.active {
+  color: var(--color-brand);
+}
+
+.categoryIconWrapper {
+  box-shadow: 0px 2px 9px 0px #00000038;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.625rem;
+  margin-bottom: 1.375rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    box-shadow: 0px 4px 15px 2px #00000080;
+  }
+}

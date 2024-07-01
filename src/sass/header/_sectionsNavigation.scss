@@ -1,0 +1,25 @@
+.sectionsNavigation {
+  padding: 0.75rem 3.5rem;
+  box-shadow: 0px 8px 16px 0px #3930131f;
+  & > ul {
+    display: flex;
+    color: #9f9f9f;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    column-gap: 5.625rem;
+  }
+  & > ul li:hover {
+    color: var(--color-brand);
+  }
+}
+
+.activeSectionNav {
+  color: var(--color-brand);
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem;
+}

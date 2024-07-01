@@ -1,0 +1,26 @@
+// Configure CSS
+@import "reset";
+@import "global";
+
+// Header
+@import "./header/headerInfoBar";
+@import "./header/topNavigation";
+@import "./header/sectionsNavigation";
+
+// User Interface
+
+@import "./promotion/banner";
+@import "./partners";
+@import "category";
+
+// Products
+@import "./product/productsTypeNav";
+@import "./product/productItem";
+@import "./product/productpanel";
+@import "./product/productModal";
+
+// Brands
+@import "./brand";
+
+// Footer
+@import "./footer";
